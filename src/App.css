@@ -1,38 +1,164 @@
-.App {
-  text-align: center;
+/* *{
+  background-color: #655E5E;
+} */
+
+#name{
+  background-color: brown;
+}
+.navbar{
+  background-color: #e3f2fd;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* css for Education*/
+
+section#education {
+  margin: 20px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section#education h2 {
+  margin-bottom: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+section#education table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+section#education th,
+section#education td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+section#education th {
+  background-color: #333;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+/* projects  */
+
+.project {
+  width: 300px;
+  margin: 20px;
+  display: inline-block;
+  vertical-align: top;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.project img {
+  width: 100%;
+}
+
+.project h3 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.project p {
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.project a {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.projjj{
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h4{
+  text-align: center;
+}
+
+/* skills */
+
+.skills-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .skills-section h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
   }
+  
+  .skills-section ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+  
+  .skills-section li {
+  font-size: 1.2em;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  }
+
+  /* internship css */
+
+  .internship {
+    margin: 50px 0;
+  }
+  
+  .internship h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .internship-item {
+    margin-bottom: 30px;
+  }
+  
+  .internship-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+
+  /* footer  */
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-left, .footer-right {
+    width: 40%;
+  }
+  
+  .footer-left ul, .footer-right ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-left ul li, .footer-right ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-left a, .footer-right a {
+    color: #fff;
+    text-decoration: none;
+  }
+    .footer-left a:hover, .footer-right a:hover {
+    text-decoration: none;
+  }
+  #icon {
+  margin-right: 5px;
 }
