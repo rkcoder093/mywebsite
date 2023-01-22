@@ -1,7 +1,3 @@
-/* *{
-  background-color: #655E5E;
-} */
-
 #name{
   background-color: brown;
 }
@@ -73,7 +69,7 @@ section#education th {
   flex-wrap: wrap;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 h4{
   text-align: center;

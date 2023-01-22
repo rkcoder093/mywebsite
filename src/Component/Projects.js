@@ -4,7 +4,7 @@ export default function Projects(props) {
   return (
     <>
       <div className="projjj">
-        <div className="cardp">
+        <div className="card">
           <div className="project" >
             {/* <img src="project1.jpg" alt="Project 1" /> */}
             <h3>Project 1</h3>
