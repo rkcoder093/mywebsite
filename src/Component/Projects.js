@@ -6,7 +6,6 @@ export default function Projects(props) {
       <div className="projjj">
         <div className="card">
           <div className="project" >
-            {/* <img src="project1.jpg" alt="Project 1" /> */}
             <h3>Project 1</h3>
             <h4>Implementation of Data Structure</h4>
             <p>
