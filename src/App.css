@@ -40,6 +40,11 @@ section#education th {
 
 /* projects  */
 
+.card{
+  margin-top: 10px;
+  background-color: bisque;
+}
+
 .project {
   width: 300px;
   margin: 20px;
@@ -47,9 +52,7 @@ section#education th {
   vertical-align: top;
 }
 
-.project img {
-  width: 100%;
-}
+
 
 .project h3 {
   margin-top: 10px;

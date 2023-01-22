@@ -22,10 +22,10 @@ export default function Footer() {
                 <a href="https://www.facebook.com/ritik.keshri.35"><i className="fab fa-facebook-square"></i> Facebook</a>
               </li>
               <li>
-              <a href="https://www.instagram.com/rkeshri093/"><i class="fab fa-instagram"></i> Instagram</a>
+              <a href="https://www.instagram.com/rkeshri093/"><i className="fab fa-instagram"></i> Instagram</a>
               </li>
               <li>
-              <a href="https://www.linkedin.com/in/ritikkeshri/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+              <a href="https://www.linkedin.com/in/ritikkeshri/"><i className="fab fa-linkedin"></i> LinkedIn</a>
               </li>
             </ul>
           </div>
