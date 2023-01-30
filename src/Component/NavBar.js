@@ -27,11 +27,6 @@ export class NavBar extends Component {
                     Home
                   </a>
                 </li>
-                {/* <li className="nav-item">
-                  <a className="nav-link" href="/">
-                    Summaary
-                  </a>
-                </li> */}
                 <li className="nav-item">
                   <a className="nav-link" href="/">
                     Education

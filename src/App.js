@@ -16,9 +16,9 @@ export default class App extends Component {
         <NavBar />
         <About name="Ritik Kumar keshri " title_of_about="Summary" btn_name="Education" />
         <Education />
+        <Internship />
         <Projects />
         <Skills />
-        <Internship />
         <Footer />
       </div>
     );
