@@ -11,7 +11,7 @@ export default function Education() {
     <>
       <section id="education">
         <h2>Education</h2>
-        <table>
+        <table >
           <tbody>
             <tr>
               <th>Degree</th>

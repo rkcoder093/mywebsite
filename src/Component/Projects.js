@@ -14,7 +14,7 @@ export default function Projects() {
       <div className="projjj">
         {
         project.map((item,i)=>(
-          <div className="card" key={i}>
+          <div className="card" id="card" key={i}>
           <div className="project" >
             <h3>{item.projectNo}</h3>
             <h4>{item.projectTitle}</h4>

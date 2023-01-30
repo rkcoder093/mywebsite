@@ -1,14 +1,8 @@
-#name{
-  background-color: brown;
-}
-.navbar{
-  background-color: #e3f2fd;
-}
 
 /* css for Education*/
 
 section#education {
-  margin: 20px 0;
+  /* margin: 20px 0; */
 }
 
 section#education h2 {
@@ -36,9 +30,10 @@ section#education th {
 
 /* projects  */
 
-.card{
-  margin-top: 10px;
-  background-color: bisque;
+#card{
+  margin-bottom: 20px;
+  background-color: rgb(173, 151, 194);
+  color: rgb(100, 17, 62);
 }
 
 .project {
@@ -53,11 +48,13 @@ section#education th {
 .project h3 {
   margin-top: 10px;
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .project p {
   text-align: justify;
   margin-top: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .project a {
@@ -70,15 +67,18 @@ section#education th {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  /* background: rgb(223, 120, 212); */
 }
 h4{
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 /* skills */
 
 .skills-section {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   padding: 20px;
   }
@@ -87,6 +87,8 @@ h4{
   text-align: center;
   font-size: 2em;
   margin-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:  rgb(148, 131, 131);
   }
   
   .skills-section ul {
@@ -99,9 +101,11 @@ h4{
   .skills-section li {
   font-size: 1.2em;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px dotted #ccc;
   border-radius: 5px;
   margin: 10px;
+  background-color: rgb(212, 193, 193);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
   /* internship css */

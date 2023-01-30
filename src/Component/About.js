@@ -3,8 +3,8 @@ import React from 'react'
 export default function About(props) {
   return (
     <>
-        <div className="card text-center">
-          <div className="card-header fs-2 fw-bold  ">{props.name}</div>
+        <div className="card text-center" >
+          <div className="card-header fs-3 fw-bold  ">{props.name}</div>
           <div className="card-body">
             <h5 className="card-title fs-3">{props.title_of_about}</h5>
             <p className="card-text fs-5">
@@ -16,9 +16,6 @@ export default function About(props) {
 
             In addition to my technical skills, I am a strong communicator and thrive in collaborative work environments. I am constantly learning and staying up-to-date with the latest developments in the field to improve my skills and deliver the best possible solutions to my clients
             </p>
-            <a href="/Education" className="btn btn-primary">
-              {props.btn_name} 
-            </a>
           </div>
         </div>
       </>

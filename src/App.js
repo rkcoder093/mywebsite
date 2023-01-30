@@ -12,9 +12,9 @@ import Footer from "./Component/Footer";
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <div> 
         <NavBar />
-        <About name="Ritik Kumar keshri " title_of_about="Summary" btn_name="Education" />
+        <About name="Ritik Kumar keshri " title_of_about="Summary"  />
         <Education />
         <Internship />
         <Projects />
