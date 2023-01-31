@@ -1,6 +1,6 @@
 {
-  "homepage": "https://rkcoder093.github.io/MyWebsite",
-  "name": "portfolio",
+  "homepage": "https://rkcoder093.github.io/mywebsite",
+  "name": "mywebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
