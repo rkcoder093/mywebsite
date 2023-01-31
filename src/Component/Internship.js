@@ -1,6 +1,10 @@
 import React from "react";
 
+
+
 export default function Internship() {
+  
+
   return (
     <>
       <div >
@@ -22,7 +26,7 @@ export default function Internship() {
               </h2>
               <div
                 id="flush-collapseOne"
-                className="accordion-collapse collapse"
+                className="accordion-collapse collapse show"
                 aria-labelledby="flush-headingOne"
                 data-bs-parent="#accordionFlushExample"
               >
