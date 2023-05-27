@@ -11,7 +11,7 @@ export default function Projects() {
 
   return (
     <>
-      <div className="projjj">
+      <div className="projjj"> 
         {
         project.map((item,i)=>(
           <div className="card" id="card" key={i}>
@@ -19,7 +19,7 @@ export default function Projects() {
             <h3>{item.projectNo}</h3>
             <h4>{item.projectTitle}</h4>
             <p>{item.sumarry}</p>
-            <a href={item.link} target="_blank" rel="noreferrer">
+            <a href={item.link} target="_blank" rel="" >
               View Project
             </a>
           </div>
