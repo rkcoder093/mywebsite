@@ -15,7 +15,7 @@ export default class App extends Component {
       <div> 
         <NavBar />
         <About name="Ritik Kumar keshri" title_of_about="Summary"  />
-        <Education />
+        <Education /><br></br>
         {/* <Internship /> */}
         <Projects />
         <Skills />
