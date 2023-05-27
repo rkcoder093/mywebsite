@@ -6,7 +6,7 @@ import About from "./Component/About";
 import Education from "./Component/Education";
 import Projects from "./Component/Projects";
 import Skills from "./Component/Skills";
-import Internship from "./Component/Internship";
+// import Internship from "./Component/Internship";
 import Footer from "./Component/Footer";
 
 export default class App extends Component {
@@ -14,9 +14,9 @@ export default class App extends Component {
     return (
       <div> 
         <NavBar />
-        <About name="Ritik Kumar keshri " title_of_about="Summary"  />
+        <About name="Ritik Kumar keshri" title_of_about="Summary"  />
         <Education />
-        <Internship />
+        {/* <Internship /> */}
         <Projects />
         <Skills />
         <Footer />
